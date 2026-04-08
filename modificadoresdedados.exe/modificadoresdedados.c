@@ -13,7 +13,7 @@ int main() {
     printf("Numero regular(int): %d\n",numeronormal);
     printf("Numero Grande (long int): %ld\n",NumeroGrande);
 
-    NumeroGrande =  2147483647;
+    NumeroGrande =  2147483648;
     printf("Número grande atualizado (long int): %ld\n", NumeroGrande);
 
 
