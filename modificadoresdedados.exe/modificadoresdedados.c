@@ -14,7 +14,7 @@ int main() {
     printf("Numero Grande (long int): %ld\n",NumeroGrande);
 
     NumeroGrande =  2147483647;
-    printf("Número grande atualizado (long int): %ld\n", NumeroGrande)
+    printf("Número grande atualizado (long int): %ld\n", NumeroGrande);
 
 
     return 0;
