@@ -2,9 +2,12 @@
 
 int main(){
 
-int numero = 4;
+int numero = 5, resultado;
 
-if (numero % 2 == 0) {
+resultado = numero % 2;
+
+printf("A variavel resultado é: %d", resultado);
+if (resultado == 0) {
     printf("O numero é par\n");
 }
 
