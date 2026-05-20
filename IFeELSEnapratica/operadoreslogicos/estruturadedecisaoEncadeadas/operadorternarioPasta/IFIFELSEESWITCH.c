@@ -22,7 +22,8 @@ int main(){
         scanf("%f", &nota2);
         // Testar a condiçao se a nota é >= 0 e <=10
         if ((nota1 >= 0 && nota1 <= 10) && (nota2 >= 0 && nota2 <= 10)){
-            printf("Entrada está correta");
+            media = (nota1 + nota2) / 2;
+            printf("A média é %.2f\n", media);
         } else {
             printf("Entrada com valores errados");
         }
@@ -30,9 +31,25 @@ int main(){
 
         break;
     case 2:
-        printf("Determinar status");
+        printf("Determinar status\n");
+        printf("Entrar com a media\n");
+        scanf("%f", &media);
+        //media >= 5 ? printf("Aprovado") : printf("Reprovado\n!");
+        if (media >= 7)
+        {
+            printf("Aprovado!\n");
+        }   else if (media >= 5)
+        {
+            printf("recuperação!!\n");
+        }   else {
+            printf("Reprovado!\n");
+        }
+        
+        
+        break;
     case 3:
         printf("Sair do programa...\n");
+        break;
     default:
     printf("Opção inválida!!");
         break;
