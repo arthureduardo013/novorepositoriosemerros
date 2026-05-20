@@ -14,6 +14,6 @@ int main(){
         printf("voce e menor de idade\n");
     }
     
-    
+    return 0;
     
 }
