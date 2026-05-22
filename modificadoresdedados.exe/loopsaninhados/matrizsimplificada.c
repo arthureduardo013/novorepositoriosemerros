@@ -11,6 +11,6 @@ int main(){
     printf("O elemento na posição [1][1] é %d\n", matriz[1][1]);
     printf("O elemento na posição [2][2] é %d\n", matriz[2][2]);
     
-    return 0;
+    return 0; 
 
 }
