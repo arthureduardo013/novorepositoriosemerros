@@ -15,10 +15,9 @@ int main() {
 
     // exibindo a matriz
     for (int i = 0; i < 3; i++){
-       
         for (int j = 0; j < 3; j++) {
 
-        printf("matriz[%d][%d] = %d\n", i, j, matriz[i][j]);
+            printf("matriz[%d][%d] = %d\n", i, j, matriz[i][j]);
         }
     }
 
