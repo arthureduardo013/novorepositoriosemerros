@@ -1,25 +1,29 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 
-    int matriz1 = [2][2] = {{1, 2}, {3, 4}};
-    int matriz2 = [2][2] = {{5, 6}, {7, 8}};
+    int matriz1[2][2] = {{1, 2}, {3, 4}};
+    int matriz2[2][2] = {{5, 6}, {7, 8}};
     int somamatriz[2][2];
 
-    //somando as duas matrizes
-    for (int i = 0; i < 2; i++)
-    {
-        for (int j = 0; j < 2; j++){
+    // somando as matrizes
+    for (int i = 0; i < 2; i++) {
+
+        for (int j = 0; j < 2; j++) {
+
             somamatriz[i][j] = matriz1[i][j] + matriz2[i][j];
         }
-        for (int i = 0; i < 2; i++){
-            for (int j = 0; j < 2; j++){
-                printf("matrizsoma[%d][%d] = %d\n", i, j, somamatriz[i][j]);
-            }
-            return 0;
-        }
-        
-        
     }
-    
+
+    // exibindo a soma
+    for (int i = 0; i < 2; i++) {
+
+        for (int j = 0; j < 2; j++) {
+
+            printf("somamatriz[%d][%d] = %d\n",
+                   i, j, somamatriz[i][j]);
+        }
+    }
+
+    return 0;
 }
